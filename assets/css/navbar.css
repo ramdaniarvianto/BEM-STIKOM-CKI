@@ -1,0 +1,247 @@
+:root {
+    --peach: #D3506B;
+    --light-peach: #FFB792;
+    --purple: #58236B;
+    --light-purple: #F6DEFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #F1F2FB;
+}
+
+img {
+    width: 4rem;
+    display: block;
+}
+
+svg {
+    display: block;
+}
+
+/* NAVBAR */
+nav {
+    z-index: 10;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 5rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #FFFFFF;
+}
+
+nav .nav-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+nav .nav-logo span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav .nav-menu {
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-left: 1px solid #E1E2EB;
+}
+
+nav .nav-menu a {
+    padding: .5rem 0;
+}
+nav .nav-menu a:hover {
+    color: var(--peach);
+}
+
+/* NAV MENU ACTIVE */
+nav .active {
+    color: var(--peach);
+}
+
+nav .nav-d {
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-menu .nav-dropdown:hover .nav-d {
+    align-items: flex-end;
+}
+nav .nav-menu .nav-dropdown:hover .nav-d {
+    color: var(--peach);
+}
+nav .nav-menu .nav-dropdown:hover svg {
+    fill: var(--peach);
+}
+
+/* NAV SHOW */
+nav .nav-menu .nav-dropdown:hover > .nav-dropdown-content {
+    display: block;
+}
+
+nav .nav-menu .nav-dropdown .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E2EB;
+    border-radius: 5px;
+}
+
+nav .nav-dropdown-content a {
+    width: 100%;
+    display: inline-block;
+    padding: 8px;
+    line-height: 1;
+    border-radius: 3px;
+}
+nav .nav-dropdown-content a:hover {
+    background-color: #F1F2FB;
+}
+
+/* HIDE CHECKBOX */
+input#sidebar-active {
+    display: none;
+}
+/* OPEN & CLOSE SIDEBAR BUTTON */
+#open-sidebar-button {
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+}
+#open-sidebar-button:hover {
+    background-color: #F1F2FB;
+}
+#close-sidebar-button {
+    cursor: pointer;
+    border-radius: 5px;
+}
+#close-sidebar-button:hover {
+    background-color: #F1F2FB;
+}
+
+/* SHOW SIDEBAR */
+input#sidebar-active:checked ~ .sidebar {
+    display: block;
+}
+/* SHOW OVERLAY */
+input#sidebar-active:checked ~ #overlay {
+    display: block;
+}
+
+/* OVERLAY FOR CLOSE SIDEBAR */
+nav #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 100vh;
+    display: none;
+    background-color: #00000033;
+}
+
+/* SIDEBAR */
+nav .sidebar {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    height: 100vh;
+    line-height: 2.5;
+    background-color: #FFFFFF;
+}
+
+nav .sidebar .sidebar-head {
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E1E2EB;
+}
+
+nav .sidebar .sidebar-head span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav .sidebar .sidebar-menu {
+    padding: .5rem 1rem;
+}
+
+nav .sidebar .sidebar-menu a {
+    display: block;
+}
+nav .sidebar .sidebar-menu a:hover {
+    color: var(--peach);
+}
+
+nav .sidebar .sidebar-menu .sidebar-dropdown .sidebar-d {
+    cursor: default;
+}
+
+nav .sidebar .sidebar-menu .sidebar-dropdown > li a {
+    display: flex;
+    align-items: center;
+}
+nav .sidebar .sidebar-menu .sidebar-dropdown a:hover svg {
+    fill: var(--peach);
+}
+
+nav .sidebar .sidebar-menu .sidebar-dropdown .sidebar-dropdown-content {
+    padding-left: 1rem;
+    margin-left: .5rem;
+    border-left: 1px solid #E1E2EB;
+}
+
+nav .sidebar .sidebar-menu .sidebar-dropdown:hover .sidebar-d {
+    color: var(--peach);
+}
+nav .sidebar .sidebar-menu .sidebar-dropdown:hover svg {
+    fill: var(--peach);
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 576px) {
+    img {
+        width: 3.5rem;
+    }
+
+    /* NAV */
+    nav {
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .nav-menu {
+        display: none;
+    }
+
+    /* SHOW OPEN SIDEBAR BUTTON */
+    #open-sidebar-button {
+        display: block;
+    }
+}

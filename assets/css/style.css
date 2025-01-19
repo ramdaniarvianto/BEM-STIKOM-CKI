@@ -1,0 +1,85 @@
+:root {
+    --peach: #D3506B;
+    --light-peach: #FFB792;
+    --purple: #58236B;
+    --light-purple: #F6DEFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #F1F2FB;
+}
+
+img {
+    width: 4rem;
+    display: block;
+}
+
+svg {
+    display: block;
+}
+
+/* HEADER */
+header {
+    padding: 1.5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+}
+
+header h1 {
+    font-size: clamp(1.3rem, 5vw, 4rem);
+    font-weight: 400;
+    line-height: 1.1;
+    color: #444;
+}
+
+header .h-bem {
+    font-weight: 500;
+    background: linear-gradient(to right bottom, royalblue, cornflowerblue, skyblue);
+    background-clip: text;
+    color: transparent;
+}
+header .h-kabinet {
+    font-weight: 500;
+    background: linear-gradient(to right bottom, #D3506B, #FFB792);
+    background-clip: text;
+    color: transparent;
+}
+
+header img {
+    width: 100%;
+    opacity: .9;
+    border-radius: 1rem;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 576px) {
+    header {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        gap: 10px;
+        border-radius: 10px;
+    }
+
+    header img {
+        border-radius: 10px;
+    }
+}
