@@ -32,127 +32,187 @@ svg {
     display: block;
 }
 
+/* BREADCRUMBS */
+.breadcrumbs {
+    padding: .8rem 1rem;
+    margin: 1rem 2rem;
+    display: flex;
+    gap: .8rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.breadcrumbs a {
+    padding: .2rem 1rem;
+    background-color: #F1F2FB;
+    border-radius: 100px;
+}
+.breadcrumbs a:hover {
+    background-color: #E1E2EB;
+}
+
+.breadcrumbs span {
+    color: #E1E2EB;
+}
+
+.breadcrumbs-active {
+    cursor: default;
+    color: var(--peach);
+}
+
 /* HEADER */
 header {
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     margin: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     background-color: #FFFFFF;
-    border-radius: 1.5rem;
-}
-
-header h1 {
-    font-size: clamp(1.3rem, 5vw, 4rem);
-    font-weight: 400;
-    line-height: 1.1;
-    color: #444;
-}
-
-header .h-bem {
-    font-weight: 500;
-    background: linear-gradient(to right bottom, royalblue, cornflowerblue, skyblue);
-    background-clip: text;
-    color: transparent;
-}
-header .h-kabinet {
-    font-weight: 500;
-    background: linear-gradient(to right bottom, #D3506B, #FFB792);
-    background-clip: text;
-    color: transparent;
-}
-
-header img {
-    width: 100%;
-    opacity: .9;
     border-radius: 1rem;
 }
 
+header h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 500;
+    line-height: 1;
+}
+
+header p {
+    color: #AAAAAA;
+}
+
 /* MAIN */
-/* MAIN | SAMBUTAN */
-main .sambutan {
+main {
+    margin: 2rem;
+}
+
+main hr {
+    border: none;
+    border-top: 1px solid #E1E2EB;
+}
+
+/* MAIN | LEFT */
+main .left {
+    width: 70%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .left .content {
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
-    background: linear-gradient(to right, royalblue, royalblue, royalblue, royalblue, skyblue);
+    background-color: #FFFFFF;
+    border-radius: 1rem;
 }
 
-main .sambutan img {
-    width: 18rem;
-    opacity: .9;
+main .left .content h2 {
+    font-size: 2rem;
+    font-weight: 500;
 }
 
-main .sambutan .sambutan-text {
+main .left .content img {
+    width: 40%;
+    background-color: #4A1B31;
+    border-radius: 1rem;
+}
+main .left .content img.proker-image {
+    width: 100%;
+}
+
+main .left .content strong {
+    display: inline-block;
+    padding: .2rem 1.2rem;
+    font-weight: normal;
+    color: var(--peach);
+    border: 1.4px solid var(--peach);
+    border-radius: 100px;
+}
+main .left .content strong.terlaksana {
+    display: inline-block;
+    padding: .2rem 1.2rem;
+    font-weight: normal;
+    color: #00D000;
+    border: 1.4px solid #00D000;
+    border-radius: 100px;
+}
+main .left .content strong.sub-proker {
+    display: inline-block;
+    padding: .2rem 1.2rem;
+    font-weight: normal;
+    color: var(--light-peach);
+    border: 1.4px solid var(--light-peach);
+    border-radius: 100px;
+}
+
+main .left .content .content-text {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-main .sambutan .sambutan-text h2 {
-    font-size: clamp(1.5rem, 5vw, 3rem);
-    font-weight: 500;
-    line-height: 1;
-    color: #FFFFFF;
+main .left .content .content-text th {
+    padding: 5px;
+    color: var(--peach);
+    vertical-align: top;
+}
+main .left .content .content-text td {
+    padding: 5px;
 }
 
-main .sambutan .sambutan-text a {
-    padding: 7px 30px;
-    color: white;
-    border: 1px solid #FFFFFF;
-    border-radius: 100px;
-}
-main .sambutan .sambutan-text a:hover {
-    color: royalblue;
-    background-color: #FFFFFF;
+main .left .content .proker-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
-/* RESPONSIVE BREAKPOINTS */
+main .left .content .proker-wrap .proker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+main .left .content .proker-wrap .proker-collab {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+main .left .content .proker-wrap .proker-collab .collab {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* MAIN | RIGHT */
+main .right {
+    width: 30%;
+}
+
+/* RESPONSIVE BREAKPOINT */
 @media (max-width: 576px) {
+    /* BREADCRUMBS */
+    .breadcrumbs {
+        padding: .5rem .4rem;
+        margin: .5rem;
+        display: flex;
+        gap: .4rem;
+    }
+
+    .breadcrumbs a {
+        padding: .1rem .8rem;
+    }
+
     /* HEADER */
     header {
-        padding: 10px;
-        margin: 10px;
-        display: flex;
-        gap: 10px;
-        border-radius: 10px;
-    }
-
-    header img {
-        border-radius: 10px;
-    }
-
-    /* MAIN */
-    /* MAIN | SAMBUTAN */
-    main .sambutan {
-        padding-top: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        background: royalblue;
-    }
-
-    main .sambutan .sambutan-text {
-        order: 1;
+        padding: .5rem 1rem;
+        margin: 1rem 10px;
         display: flex;
         gap: .5rem;
-    }
-    main .sambutan .sambutan-image {
-        order: 2;
-    }
-
-    main .sambutan img {
-        width: 12rem;
-    }
-
-    main .sambutan .sambutan-text {
-        text-align: center;
-    }
-
-    main .sambutan .sambutan-text a {
-        padding: 2px 20px;
-        color: white;
-        border: 1px solid #FFFFFF;
-        border-radius: 100px;
+        border-radius: .5rem;
     }
 }
