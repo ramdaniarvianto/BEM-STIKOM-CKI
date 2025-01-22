@@ -23,9 +23,15 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         </a>
         <ul class="nav-menu">
             <li><a href="<?= $basePath; ?>index.php">Home</a></li>
-            <li><a href="">Tentang</a></li>
             <ul class="nav-dropdown">
-                <li><a class="nav-d">Kementerian <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+                <li><a class="nav-d nav-d-ml">Tentang<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+                <ul class="nav-dropdown-content">
+                    <li><a href="<?= $basePath; ?>pages/proker.php">Program Kerja</a></li>
+                    <li><a href="<?= $basePath; ?>pages/filosofi.php">Filosofi Logo</a></li>
+                </ul>
+            </ul>
+            <ul class="nav-dropdown">
+                <li><a class="nav-d">Struktur Organisasi<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
                 <ul class="nav-dropdown-content">
                     <li><a href="">Sekretaris</a></li>
                     <li><a href="">Bendahara</a></li>
@@ -53,9 +59,15 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
             <ul class="sidebar-menu">
                 <li><a href="<?= $basePath; ?>index.php">Home</a></li>
-                <li><a href="">Tentang</a></li>
                 <ul class="sidebar-dropdown">
-                    <li><a class="sidebar-d">Kementerian <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+                    <li><a class="sidebar-d">Tentang <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
+                    <ul class="sidebar-dropdown-content">
+                        <li><a href="<?= $basePath; ?>pages/proker.php">Program Kerja</a></li>
+                        <li><a href="<?= $basePath; ?>pages/filosofi.php">Filosofi Logo</a></li>
+                    </ul>
+                </ul>
+                <ul class="sidebar-dropdown">
+                    <li><a class="sidebar-d">Struktur Organisasi <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
                     <ul class="sidebar-dropdown-content">
                         <li><a href="">Sekretaris</a></li>
                         <li><a href="">Bendahara</a></li>

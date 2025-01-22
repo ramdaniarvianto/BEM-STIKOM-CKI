@@ -62,7 +62,7 @@ nav .nav-menu {
     padding-left: 1.5rem;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.3rem;
     border-left: 1px solid #E1E2EB;
 }
 
@@ -82,6 +82,9 @@ nav .nav-d {
     cursor: default;
     display: flex;
     align-items: center;
+}
+nav .nav-d-ml {
+    margin-left: 4px;
 }
 
 nav .nav-menu .nav-dropdown:hover .nav-d {
@@ -238,6 +241,10 @@ nav .sidebar .sidebar-menu .sidebar-dropdown:hover svg {
 
     nav .nav-menu {
         display: none;
+    }
+
+    nav .nav-d-ml {
+        margin-left: 0;
     }
 
     /* SHOW OPEN SIDEBAR BUTTON */
