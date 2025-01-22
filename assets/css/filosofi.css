@@ -128,9 +128,6 @@ main .left .content .logo-wrap .logo {
     border: 1.5px solid #E1E2EB;
     border-radius: 1rem;
 }
-main .left .content .logo-wrap .logo:hover {
-    border: 1.5px solid var(--peach);
-}
 
 main .left .content .nama-wrapper {
     display: flex;
