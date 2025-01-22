@@ -19,22 +19,32 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
     <?php include "includes/navbar.php"; ?>
 
     <header>
-        <h1>Selamat Datang di Website <span class="h-bem">BEM STIKOM CKI</span> Kabinet <span class="h-kabinet">Dharma Satvavira Dialektika</span></h1>
+        <h1>
+            Selamat Datang,<br>
+            <span>
+                Website BEM STIKOM CKI <br>
+                <span class="bem">Kabinet Dharma Satvavira Dialektika</span>
+            </span>
+        </h1>
         <img src="assets/images/bem/raker.png" alt="BEM STIKOM CKI 2024/2025">
     </header>
 
     <main>
-        <div class="sambutan">
-            <div class="sambutan-image">
+        <div class="jumbotron">
+            <div class="jumbotron-image">
                 <img src="assets/images/ketuwakil/rajabowo.png" alt="Presiden dan Wakil Presiden Mahasiswa BEM STIKOM CKI">
             </div>
-            <div class="sambutan-text">
+            <div class="jumbotron-text">
                 <h2>
                     Presiden dan Wakil Presiden <br>
                     Mahasiswa STIKOM CKI
                 </h2>
-                <p><a href="pages/sambutan.php">Sambutan</a></p>
+                <p><a href="">Sambutan</a></p>
             </div>
+        </div>
+
+        <div class="sambutan">
+
         </div>
     </main>
 </body>
