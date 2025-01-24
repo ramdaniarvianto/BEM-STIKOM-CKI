@@ -180,5 +180,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
         </div>
     </main>
+
+    <?php include "../includes/footer.php"; ?>
 </body>
 </html>

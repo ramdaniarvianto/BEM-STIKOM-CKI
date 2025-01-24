@@ -1,0 +1,126 @@
+:root {
+    --peach: #D3506B;
+    --light-peach: #FFB792;
+    --purple: #58236B;
+    --light-purple: #F6DEFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #F1F2FB;
+}
+
+img {
+    width: 4rem;
+    display: block;
+}
+
+svg {
+    display: block;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+footer .footer-info {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+footer .footer-info .foot-logo {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+footer .footer-info .foot-logo span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+footer .footer-info .foot-socmed {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer .footer-info .foot-socmed a {
+    padding: 0 1.5rem;
+    display: inline-block;
+    border: 1.4px solid var(--peach);
+    border-radius: 100px;
+}
+footer .footer-info .foot-socmed a:hover {
+    color: var(--peach);
+}
+footer .footer-info .foot-socmed i {
+    color: var(--peach);
+}
+
+footer .footer-copy {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: #4A1B31;
+}
+
+footer .footer-copy p {
+    color: var(--light-peach);
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 576px) {
+    /* FOOTER */
+    footer {
+        margin-top: 2rem;
+    }
+    
+    footer .footer-info {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        text-align: start;
+    }
+
+    footer .footer-info .foot-logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    footer .footer-info .foot-socmed {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    footer .footer-info .foot-socmed a {
+        padding: .5rem 0;
+        border: none;
+        border-bottom: 1.4px solid var(--peach);
+        border-radius: 0;
+    }
+}

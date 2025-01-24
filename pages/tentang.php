@@ -22,5 +22,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <h1>Sambutan dari Presiden dan Wakil Presiden Mahasiswa STIKOM CKI Kabinet Dharma Satvavira Dialektika</h1>
         <p>Kamis, 20 Novemer 2024</p>
     </header>
+
+    <?php include "../includes/footer.php"; ?>
 </body>
 </html>
