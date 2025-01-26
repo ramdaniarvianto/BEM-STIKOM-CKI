@@ -123,13 +123,15 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
         </div>
         <div class="right">
-            <div class="content">
-                <p>
-                    Ada undangan, kolaborasi, atau urusan penting sama BEM?
-                    <br>
-                    Langsung aja hubungi Humas!
-                </p>
-                <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <div class="sticky">
+                <div class="content">
+                    <p>
+                        Ada undangan, kolaborasi, atau urusan penting sama BEM?
+                        <br>
+                        Langsung aja hubungi Humas!
+                    </p>
+                    <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
             </div>
         </div>
     </main>

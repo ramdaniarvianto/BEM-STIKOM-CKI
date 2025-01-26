@@ -138,6 +138,10 @@ main .left .content .content-text td {
     padding: 5px;
 }
 
+main .left .content .content-text td b {
+    font-weight: 600;
+}
+
 main .left .content .proker-wrap {
     display: flex;
     flex-direction: column;
@@ -166,43 +170,17 @@ main .left .content .proker-wrap .proker-collab .collab {
 /* MAIN | RIGHT */
 main .right {
     width: 30%;
-}
-
-main .right .scroll {
-    top: 7rem;
-    position: sticky;
-    position: -webkit-sticky;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-main .right .navigasi {
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    background-color: #FFFFFF;
-    border-radius: 1rem;
-}
-main .right .navigasi h3 {
-    font-weight: 500;
-    font-size: 1.4rem;
-    color: #4A1B31;
-}
-main .right .navigasi ol {
-    padding-left: 1rem;
-    border-left: 1.5px solid #4A1B31;
-}
-main .right .navigasi ol li a {
-    color: #A1A2AB;
-    line-height: 2;
-}
-main .right .navigasi ol li a:hover {
-    color: #4A1B31;
+main .right .sticky {
+    top: 7rem;
+    position: sticky;
 }
 
-main .right .humas {
+main .right .content {
     padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -211,26 +189,27 @@ main .right .humas {
     background: linear-gradient(to bottom right, #4A1B31, #4A1B31, var(--light-peach));
     border-radius: 1rem;
 }
-main .right .humas p {
+
+main .right .content p {
     color: var(--light-peach);
 }
 
-main .right .humas a {
+main .right .content a {
     padding: 4px 1rem;
     color: #F1F2FB;
     background-color: #FFB79266;
     border-radius: 100px;
     transition: .2s ease-in-out;
 }
-main .right .humas a:hover {
+main .right .content a:hover {
     color: #4A1B31;
     background-color: var(--light-peach);
 }
-main .right .humas a:hover > i {
+main .right .content a:hover > i {
     color: #4A1B31;
 }
 
-main .right .humas i {
+main .right .content i {
     color: #F1F2FB;
     transition: .2s ease-in-out;
 }
@@ -272,9 +251,5 @@ main .right .humas i {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-    }
-
-    main .right .navigasi {
-        display: none;
     }
 }

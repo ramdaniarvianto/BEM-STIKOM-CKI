@@ -77,6 +77,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     </div>
                     <!-- PROKER | ADKESMA CKI --><hr>
                     <div class="proker">
+                        <h2>Adkesmas CKI</h2>
                         <div class="proker-tags">
                             <strong>Adkesmas CKI</strong>
                             <strong class="terlaksana">Terlaksana</strong>
@@ -106,6 +107,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     </div>
                     <!-- PROKER | CKI CARES --><hr>
                     <div class="proker">
+                        <h2>CKI Cares</h2>
                         <div class="proker-tags">
                             <strong>CKI Cares</strong>
                             <strong class="terlaksana">Terlaksana</strong>
@@ -116,6 +118,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     </div>
                     <!-- PROKER | STIKOM COLLABORATION --><hr>
                     <div class="proker">
+                        <h2>STIKOM Collaboration</h2>
                         <div class="proker-tags">
                             <strong>STIKOM Collaboration</strong>
                         </div>
@@ -124,6 +127,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                         <div class="proker-collab">
                             <!-- PROGRAM KERJA | SEMINAR IT -->
                             <div class="collab">
+                                <h2>Seminar IT</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Seminar IT</strong>
@@ -142,6 +146,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                             </div>
                             <!-- PROGRAM KERJA | DONOR DARAH -->
                             <div class="collab">
+                                <h2>Donor Darah</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Donor Darah</strong>
@@ -150,6 +155,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                             </div>
                             <!-- PROGRAM KERJA | STUDI BANDING -->
                             <div class="collab">
+                                <h2>Studi Banding</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Studi Banding</strong>
@@ -158,6 +164,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                             </div>
                             <!-- PROGRAM KERJA | BAZAR RAMADHAN -->
                             <div class="collab">
+                                <h2>Bazar Ramdahan</h2>
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Bazar Ramadhan</strong>
@@ -170,13 +177,15 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
         </div>
         <div class="right">
-            <div class="content">
-                <p>
-                    Ada undangan, kolaborasi, atau urusan penting sama BEM?
-                    <br>
-                    Langsung aja hubungi Humas!
-                </p>
-                <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <div class="sticky">
+                <div class="content">
+                    <p>
+                        Ada undangan, kolaborasi, atau urusan penting sama BEM?
+                        <br>
+                        Langsung aja hubungi Humas!
+                    </p>
+                    <a href="https://wa.me/6282247963895" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
             </div>
         </div>
     </main>

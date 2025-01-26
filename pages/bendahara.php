@@ -23,34 +23,50 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
-        <p class="breadcrumbs-active">Depkominfo</p>
+        <p class="breadcrumbs-active">Bendahara</p>
     </div>
 
     <main>
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Departemen Komunikasi dan Informasi</h2>
+                <h2>Bendahara</h2>
                 <div class="content-text">
-                    <p>Depkominfo adalah kementerian yang bertugas mengelola sistem komunikasi dan informasi BEM. Tujuannya adalah memfasilitasi penyebaran informasi melalui media sosial dan mading kampus, serta mengembangkan konten digital di platform resmi BEM agar mahasiswa tetap terinformasi dengan baik mengenai kegiatan dan isu terkini di kampus. Berikut tugas dan fungsi Depkominfo:</p>
+                    <p>Bendahara adalah kementerian yang bertugas mengelola keuangan BEM secara transparan dan akuntabel. Kementerian ini menyusun laporan keuangan berkala, mengelola bukti transaksi, memantau kegiatan Dana Usaha, serta mengawasi aliran pemasukan dan pengeluaran untuk memastikan kelancaran finansial organisasi. Berikut tugas dan fungsi Bendahara:</p>
                 </div>
                 <div class="content-text">
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Mengaktifkan mading kampus agar teratur, rapi, dan informatif sebagai wadah informasi.</td>
+                            <td>Bertanggung jawab atas administrasi keuangan BEM STIKOM CKI.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>Memfasilitasi penyebaran informasi dari UKM, Hari Nasional, dan artikel melalui akun media sosial resmi BEM STIKOM CKI.</td>
+                            <td>Membuat laporan keuangan BEM STIKOM CKI secara berkala sehingga dapat diperiksa bila diperlukan.</td>
                         </tr>
                         <tr>
                             <th>3.</th>
-                            <td>Membuat sistem publikasi dan penyebaran informasi BEM STIKOM CKI.</td>
+                            <td>Menandatangani bukti-bukti pengeluaran dan penerimaan uang.</td>
                         </tr>
                         <tr>
                             <th>4.</th>
-                            <td>Mengerjakan desain website resmi dan sosial media BEM, seperti meng-update konten dan memperbaiki fitur yang diperlukan.</td>
+                            <td>Membuat dan mengumpulkan bukti-bukti tertulis pengeluaran uang yang berupa kuitansi dan lain sebagainnya.</td>
+                        </tr>
+                        <tr>
+                            <th>5.</th>
+                            <td>Menerima dan menyimpan uang milik BEM STIKOM CKI.</td>
+                        </tr>
+                        <tr>
+                            <th>6.</th>
+                            <td>Membuat laporan keuangan dan surat menyurat mengenai keuangan yang meliputi permintaan, permintaan mendadak, dan pengembalian.</td>
+                        </tr>
+                        <tr>
+                            <th>7.</th>
+                            <td>Me-monitor jalannya semua kegiatan Danus, serta mengontrol cashflow pemasukan dan pengeluaran.</td>
+                        </tr>
+                        <tr>
+                            <th>8.</th>
+                            <td>Membuat laporan keuangan BEM STIKOM CKI setiap bulan dan membuat LPJ keuangan pada akhir tahun bersama dengan pengurus BEM yang lain.</td>
                         </tr>
                     </table>
                 </div>
@@ -59,21 +75,29 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             <div class="content" id="visimisi">
                 <h2>Visi dan Misi</h2>
                 <strong>Visi</strong>
-                <p>Menjadi kementerian yang inovatif dalam komunikasi dan informasi untuk mendukung transparansi dan akuntabilitas BEM.</p>
+                <p>Mewujudkan pengelolaan keuangan BEM STIKOM CKI yang transparan, akuntable, dan efisien. Untuk mendukung tercapainya tujuan.</p>
                 <strong>Misi</strong>
                 <div class="content-text">
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Meningkatkan efektivitas penyebaran informasi melalui berbagai media.</td>
+                            <td>Mengelola pemasukan dan pengeluaran dengan jujur, professional , dan sesuai aturan yang berlaku.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>Mengoptimalkan penggunaan platform digital untuk mendukung transparansi organisasi.</td>
+                            <td>Membuat laporan keuangan yang jelas, tepat waktu, dan mudah dipahami.</td>
                         </tr>
                         <tr>
                             <th>3.</th>
-                            <td>Berkolaborasi dengan divisi lain untuk menciptakan konten informatif dan menarik.</td>
+                            <td>Mengoptimalkan alokasi dana untuk mendukung kegiatan organisasi secara efektif.</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td>Menjaga kepercayaan anggota melalui transparansi dan komunikasi yang baik.</td>
+                        </tr>
+                        <tr>
+                            <th>5.</th>
+                            <td>Memastikan pengunaan anggaran sesuai dengan prioritas dan kebutuhan organisasi.</td>
                         </tr>
                     </table>
                 </div>
@@ -85,37 +109,51 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Social Media Creation</td>
+                            <td><b>Pembukuan</b></td>
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Program kerja yang bisa menjadikan sosial media BEM STIKOM CKI terlihat kreatif, terstruktur, konsisten dan profesional. Menyusun dan menyiapkan desain konten media sosial BEM jauh hari sebelum dipublikasikan. Supaya terstruktur, sesuai tema dan konsisten. Program ini akan dilakukan kerjasama dengan divisi HUMAS perihal brief, topik konten dan timeline hari besar nasional.</td>
+                            <td>Membuat laporan keuangan BEM STIKOM CKI secara berkala. Sehingga, dapat diperiksa bila diperlukan. Menandatangani bukti-bukti pengeluaran dan penerimaan uang. Membuat dan mengumpulkan bukti-bukti tertulis pengeluaran uang. Berupa kuitansi dan lain sebagainya. Menerima dan menyimpan keuangan milik BEM STIKOM CKI. Membuat laporan keuangan dan surat menyurat mengenai keuangan yang meliputi permintaan, permintaan mendadak, dan pengembalian.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>PlaDin (Platform Digital Informasi)</td>
+                            <td><b>Penerbitan Laporan Keuangan</b></td>
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Di era digital saat ini, Badan Eksekutif Mahasiswa (BEM) sebagai organisasi mahasiswa harus memiliki platform yang mampu memberikan informasi terkait program, kegiatan, dan pencapaian BEM secara real-time dan transparan.</td>
+                            <td>Bertanggung jawab atas administrasi keuangan BEM STIKOM CKI. Membuat laporan keuangan BEM STIKOM CKI setiap bulan dan membuat LPJ keuangan pada akhir tahun bersama dengan pengurus BEM yang lain.</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td><b>Iuran Wajib Pengurus (IWU)</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Uang kas anggota ini dipergunakan untuk pemasukan BEM dan sebagai dana tak terduga atau acara tertentu Meminta dana rutin yang berasal dari anggota BEM setiap bulan senilai Rp. 20.000 Jika telat membayar dalam 4-hari diawal bulan, maka akan di kenakan denda senilai Rp. 5.000.</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td><b>Mengadakan Kegiatan Danus</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Kegiatan ini dilakukan agar BEM memiliki pemasukan tambahan yang nantinya bisa digunakan sebagai kas BEM. Untuk menutupi kekurangan dana ketika akan melaksanakan kegiatan. Me-monitor jalannya semua kegiatan Danus Bazar Ramadhan pada tanggal 14 Maret 2025 serta mengontrol cashflow pemasukan dan pengeluaran. Dana berasal dari hasil jualan Makanan & Minuman Senilai Rp.5000.00,- 1 pcs makanan : Manggo Cheese Pudding Minuman : Lemon Tea.</td>
+                        </tr>
+                        <tr>
+                            <th>5.</th>
+                            <td><b>Pembuatan PDL</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Kegiatan ini dilakukan sebagai identitas dan ciri khas pengenal anggota BEM PDH berguna untuk kegiatan organisasi, baik formal maupun non-formal Dengan adanya PDH BEM menampilkan citra organisasi yang professional dan kekompakan, serta menciptakan rasa persatuan dan kebersamaan diantara anggota BEM. Anggaran dana pembuatan PDH berasal dari tabungan anggota BEM senilai Rp.195.000.</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
         <div class="right">
-            <div class="scroll">
-                <!-- NAVIGASI -->
-                <div class="navigasi">
-                    <h3>Navigasi</h3>
-                    <ol>
-                        <li><a href="#kementerian">Kementerian</a></li>
-                        <li><a href="#visimisi">Visi & Misi</a></li>
-                        <li><a href="#proker">Program Kerja</a></li>
-                    </ol>
-                </div>
-                <!-- HUMAS -->
-                <div class="humas">
+            <div class="sticky">
+                <div class="content">
                     <p>
                         Ada undangan, kolaborasi, atau urusan penting sama BEM?
                         <br>

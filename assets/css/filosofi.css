@@ -186,6 +186,11 @@ main .right {
     gap: 2rem;
 }
 
+main .right .sticky {
+    top: 7rem;
+    position: sticky;
+}
+
 main .right .content {
     padding: 2rem 1.5rem;
     display: flex;

@@ -23,34 +23,34 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
-        <p class="breadcrumbs-active">Depkominfo</p>
+        <p class="breadcrumbs-active">Regional UKM</p>
     </div>
 
     <main>
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Departemen Komunikasi dan Informasi</h2>
+                <h2>Regional UKM</h2>
                 <div class="content-text">
-                    <p>Depkominfo adalah kementerian yang bertugas mengelola sistem komunikasi dan informasi BEM. Tujuannya adalah memfasilitasi penyebaran informasi melalui media sosial dan mading kampus, serta mengembangkan konten digital di platform resmi BEM agar mahasiswa tetap terinformasi dengan baik mengenai kegiatan dan isu terkini di kampus. Berikut tugas dan fungsi Depkominfo:</p>
+                    <p>Regional UKM (Unit Kegiatan Mahasiswa) adalah kementerian yang menjembatani komunikasi dan koordinasi antara UKM di kampus. Kementerian ini berperan dalam memonitor dan mengevaluasi kegiatan UKM, mendukung promosi dan rekrutmen anggota baru, serta membangun jaringan kerja sama dengan pihak eksternal untuk mendukung kelancaran program UKM. Berikut tugas dan fungsi Regional UKM:</p>
                 </div>
                 <div class="content-text">
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Mengaktifkan mading kampus agar teratur, rapi, dan informatif sebagai wadah informasi.</td>
+                            <td>Komunikasi Antar UKM, menjadi jembatan komunikasi antara UKM kampus atau organisasi terkait.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>Memfasilitasi penyebaran informasi dari UKM, Hari Nasional, dan artikel melalui akun media sosial resmi BEM STIKOM CKI.</td>
+                            <td>Monitoring dan Evaluasi, mengawasi pelaksanaan kegiatan UKM untuk memastikan kelancaran dan keberhasilan program. Mereka juga melakukan evaluasi atas kegiatan yang telah berlangsung.</td>
                         </tr>
                         <tr>
                             <th>3.</th>
-                            <td>Membuat sistem publikasi dan penyebaran informasi BEM STIKOM CKI.</td>
+                            <td>Promosi dan Rekrutmen, Regional UKM juga biasanya terlibat dalam promosi kegiatan UKM kepada mahasiswa baru, serta mengorganisir rekrutmen anggota baru.</td>
                         </tr>
                         <tr>
                             <th>4.</th>
-                            <td>Mengerjakan desain website resmi dan sosial media BEM, seperti meng-update konten dan memperbaiki fitur yang diperlukan.</td>
+                            <td>Membangun Jaringan dan Kolaborasi: Mereka juga bertugas menjalin kerja sama dengan pihak eksternal seperti komunitas, kampus lain, atau sponsor untuk mendukung kegiatan UKM.</td>
                         </tr>
                     </table>
                 </div>
@@ -59,21 +59,29 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             <div class="content" id="visimisi">
                 <h2>Visi dan Misi</h2>
                 <strong>Visi</strong>
-                <p>Menjadi kementerian yang inovatif dalam komunikasi dan informasi untuk mendukung transparansi dan akuntabilitas BEM.</p>
+                <p>Menjadi wadah yang inspiratif dan produktif bagi mahasiswa untuk mengembangkan potensi diri, kreativitas, dan kepedulian sosial, serta berkontribusi terhadap pembangunan masyarakat.</p>
                 <strong>Misi</strong>
                 <div class="content-text">
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Meningkatkan efektivitas penyebaran informasi melalui berbagai media.</td>
+                            <td>Pengembangan Potensi, menyediakan program dan kegiatan yang mendukung pengembangan keterampilan dan pengetahuan mahasiswa.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>Mengoptimalkan penggunaan platform digital untuk mendukung transparansi organisasi.</td>
+                            <td>Kreativitas dan Inovasi, mendorong mahasiswa untuk berinovasi dan berkreasi dalam berbagai bidang.</td>
                         </tr>
                         <tr>
                             <th>3.</th>
-                            <td>Berkolaborasi dengan divisi lain untuk menciptakan konten informatif dan menarik.</td>
+                            <td>Kepedulian Sosial, melaksanakan kegiatan yang berdampak positif bagi masyarakat dan lingkungan sekitar.</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td>Kolaborasi dan Jaringan, membangun jaringan kerja sama dengan berbagai pihak, baik internal kampus maupun eksternal.</td>
+                        </tr>
+                        <tr>
+                            <th>5.</th>
+                            <td>Peningkatan Kualitas, meningkatkan kualitas sumber daya manusia melalui pelatihan, seminar, dan workshop.</td>
                         </tr>
                     </table>
                 </div>
@@ -85,37 +93,43 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Social Media Creation</td>
+                            <td><b>Studi Banding</b></td>
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Program kerja yang bisa menjadikan sosial media BEM STIKOM CKI terlihat kreatif, terstruktur, konsisten dan profesional. Menyusun dan menyiapkan desain konten media sosial BEM jauh hari sebelum dipublikasikan. Supaya terstruktur, sesuai tema dan konsisten. Program ini akan dilakukan kerjasama dengan divisi HUMAS perihal brief, topik konten dan timeline hari besar nasional.</td>
+                            <td>Studi Banding merupakan kegiatan pertukaran informasi antara suatu organisasi ke organisasi. Dalam kegiatan ini, suatu organisasi membahas tentang bagaimana proses organisasi mereka terjadi, yang terbagi sesuai divisinya masing-masing.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>PlaDin (Platform Digital Informasi)</td>
+                            <td><b>Seminar IT</b></td>
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Di era digital saat ini, Badan Eksekutif Mahasiswa (BEM) sebagai organisasi mahasiswa harus memiliki platform yang mampu memberikan informasi terkait program, kegiatan, dan pencapaian BEM secara real-time dan transparan.</td>
+                            <td>Seminar IT adalah sebuah acara atau pertemuan yang fokus pada berbagai topik terkait teknologi informasi. Dalam seminar ini, para ahli, praktisi, dan akademisi berbagi pengetahuan, pengalaman, dan penelitian terbaru di bidang IT.</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td><b>Donor Darah</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Donor Darah adalah proses di mana seseorang secara sukarela memberikan darahnya untuk disimpan dan digunakan dalam transfusi atau untuk keperluan medis lainnya. Donor darah sangat penting untuk membantu pasien yang membutuhkan, seperti mereka yang menjalani operasi, pasien dengan penyakit kronis, atau mereka yang mengalami kecelakaan.</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td><b>Monitoring dan Evaluasi UKM</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Melakukan pemantauan terhadap progress keaktifan ukm, perkembangan program kerja , merekap hasil  kegiatan dari masing masing UKM.</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
         <div class="right">
-            <div class="scroll">
-                <!-- NAVIGASI -->
-                <div class="navigasi">
-                    <h3>Navigasi</h3>
-                    <ol>
-                        <li><a href="#kementerian">Kementerian</a></li>
-                        <li><a href="#visimisi">Visi & Misi</a></li>
-                        <li><a href="#proker">Program Kerja</a></li>
-                    </ol>
-                </div>
-                <!-- HUMAS -->
-                <div class="humas">
+            <div class="sticky">
+                <div class="content">
                     <p>
                         Ada undangan, kolaborasi, atau urusan penting sama BEM?
                         <br>

@@ -23,34 +23,34 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
-        <p class="breadcrumbs-active">Depkominfo</p>
+        <p class="breadcrumbs-active">Adkesma</p>
     </div>
 
     <main>
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Departemen Komunikasi dan Informasi</h2>
+                <h2>Adkesma</h2>
                 <div class="content-text">
-                    <p>Depkominfo adalah kementerian yang bertugas mengelola sistem komunikasi dan informasi BEM. Tujuannya adalah memfasilitasi penyebaran informasi melalui media sosial dan mading kampus, serta mengembangkan konten digital di platform resmi BEM agar mahasiswa tetap terinformasi dengan baik mengenai kegiatan dan isu terkini di kampus. Berikut tugas dan fungsi Depkominfo:</p>
+                    <p>Kementerian Koordinator Adkesma merupakan sebuah bidang yang bertugas untuk membantu mahasiswa atau mahasiswa dalam advokasi mengenai fasilitas, akademis dan finansial untuk memenuhi kesejahteraan serta cepat tanggap terhadap permasalahan yang terdapat pada lingkungan civitas akademik. Berikut tugas dan fungsi Adkesma:</p>
                 </div>
                 <div class="content-text">
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Mengaktifkan mading kampus agar teratur, rapi, dan informatif sebagai wadah informasi.</td>
+                            <td>Menjembatani hubungan antara mahasiswa dengan STIKOM CKI, dalam mendukung kesejahteraan akademik dan non-akademik seluruh civitas akademika.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>Memfasilitasi penyebaran informasi dari UKM, Hari Nasional, dan artikel melalui akun media sosial resmi BEM STIKOM CKI.</td>
+                            <td>Membawa dan menindaklanjuti aspirasi yang timbul dari mahasiswa STIKOM CKI dengan meneruskan hasil analisis dari data dan atau informasi yang diterimanya kepada pihak yang berwenang yaitu pihak BEM STIKOM CKI dan/atau manajemen STIKOM CKI.</td>
                         </tr>
                         <tr>
                             <th>3.</th>
-                            <td>Membuat sistem publikasi dan penyebaran informasi BEM STIKOM CKI.</td>
+                            <td>Menghimpun aspirasi yang timbul dari mahasiswa STIKOM CKI dan menghimpun data dan informasi dari pihak manajemen terkait dengan kebijakan atau perkembangan yang berhubungan dengan kepentingan mahasiswa untuk dijadikan pusat data dan informasi.</td>
                         </tr>
                         <tr>
                             <th>4.</th>
-                            <td>Mengerjakan desain website resmi dan sosial media BEM, seperti meng-update konten dan memperbaiki fitur yang diperlukan.</td>
+                            <td>Melakukan pelayanan dan pengadvokasian terhadap permasalahan yang di alami mahasiswa STIKOM CKI terkait akademik, relasi sosial, sarana dan prasarana, serta kekerasan,pelecehan maupun pembullyan di lingkungan STIKOM CKI guna meningkatkan kesejahteraan mahasiswa STIKOM CKI.</td>
                         </tr>
                     </table>
                 </div>
@@ -59,21 +59,29 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             <div class="content" id="visimisi">
                 <h2>Visi dan Misi</h2>
                 <strong>Visi</strong>
-                <p>Menjadi kementerian yang inovatif dalam komunikasi dan informasi untuk mendukung transparansi dan akuntabilitas BEM.</p>
+                <p>Mewujudkan kesejahteraan mahasiswa yang inklusif, tanggap, dan berdaya guna melalui advokasi yang berkelanjutan dan berbasis partisipasi aktif.</p>
                 <strong>Misi</strong>
                 <div class="content-text">
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Meningkatkan efektivitas penyebaran informasi melalui berbagai media.</td>
+                            <td>Membangun sistem advokasi yang responsif dan profesional.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>Mengoptimalkan penggunaan platform digital untuk mendukung transparansi organisasi.</td>
+                            <td>Memperkuat hubungan komunikasi antara mahasiswa, BEM, dan manajemen STIKOM CKI.</td>
                         </tr>
                         <tr>
                             <th>3.</th>
-                            <td>Berkolaborasi dengan divisi lain untuk menciptakan konten informatif dan menarik.</td>
+                            <td>Mengedukasi mahasiswa mengenai hak dan kewajiban mereka di lingkungan kampus.</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td>Menyediakan wadah yang aman dan nyaman untuk menyampaikan aspirasi dan keluhan mahasiswa.</td>
+                        </tr>
+                        <tr>
+                            <th>5.</th>
+                            <td>Mendukung pengembangan keterampilan mahasiswa melalui program-program pendukung akademik dan non-akademik.</td>
                         </tr>
                     </table>
                 </div>
@@ -85,37 +93,43 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Social Media Creation</td>
+                            <td><b>Adkesmas CKI</b></td>
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Program kerja yang bisa menjadikan sosial media BEM STIKOM CKI terlihat kreatif, terstruktur, konsisten dan profesional. Menyusun dan menyiapkan desain konten media sosial BEM jauh hari sebelum dipublikasikan. Supaya terstruktur, sesuai tema dan konsisten. Program ini akan dilakukan kerjasama dengan divisi HUMAS perihal brief, topik konten dan timeline hari besar nasional.</td>
+                            <td>Kolaborasi antara Adkesma dan Divisi Humas BEM dengan perwakilan setiap kelas dari semua angkatan aktif untuk memantau kondisi mahasiswa/i dari sisi akademis, ekonomi, maupun kemahasiswaan.</td>
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>PlaDin (Platform Digital Informasi)</td>
+                            <td><b>Advocare CKI</b></td>
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Di era digital saat ini, Badan Eksekutif Mahasiswa (BEM) sebagai organisasi mahasiswa harus memiliki platform yang mampu memberikan informasi terkait program, kegiatan, dan pencapaian BEM secara real-time dan transparan.</td>
+                            <td>Program kerja ini berkolaborasi dengan Departemen Komunikasi dan Informasi BEM (DEPKOMINFO) sebagai tempat menyampaikan pendapat, usulan, atau aspirasi mahasiswa/i melalui hotline yang dikelola via media sosial.</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td><b>Merdeka Belajar</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Program yang menyediakan informasi mengenai Kampus/Magang Merdeka, workshop, dan event dari Kemendikbud.</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td><b>POSKAD (Pertemuan Ketua Kelas dan Wakil)</b></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>Diskusi terbuka antara ketua kelas dan wakil per semester untuk menyampaikan saran, kritikan, dan harapan terkait kebijakan pelayanan akademik maupun fasilitas kampus.</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
         <div class="right">
-            <div class="scroll">
-                <!-- NAVIGASI -->
-                <div class="navigasi">
-                    <h3>Navigasi</h3>
-                    <ol>
-                        <li><a href="#kementerian">Kementerian</a></li>
-                        <li><a href="#visimisi">Visi & Misi</a></li>
-                        <li><a href="#proker">Program Kerja</a></li>
-                    </ol>
-                </div>
-                <!-- HUMAS -->
-                <div class="humas">
+            <div class="sticky">
+                <div class="content">
                     <p>
                         Ada undangan, kolaborasi, atau urusan penting sama BEM?
                         <br>

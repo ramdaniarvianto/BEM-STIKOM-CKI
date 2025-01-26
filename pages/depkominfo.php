@@ -85,7 +85,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     <table>
                         <tr>
                             <th>1.</th>
-                            <td>Social Media Creation</td>
+                            <td><b>Social Media Creation</b></td>
                         </tr>
                         <tr>
                             <th></th>
@@ -93,7 +93,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                         </tr>
                         <tr>
                             <th>2.</th>
-                            <td>PlaDin (Platform Digital Informasi)</td>
+                            <td><b>PlaDin (Platform Digital Informasi)</b></td>
                         </tr>
                         <tr>
                             <th></th>
@@ -104,18 +104,8 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             </div>
         </div>
         <div class="right">
-            <div class="scroll">
-                <!-- NAVIGASI -->
-                <div class="navigasi">
-                    <h3>Navigasi</h3>
-                    <ol>
-                        <li><a href="#kementerian">Kementerian</a></li>
-                        <li><a href="#visimisi">Visi & Misi</a></li>
-                        <li><a href="#proker">Program Kerja</a></li>
-                    </ol>
-                </div>
-                <!-- HUMAS -->
-                <div class="humas">
+            <div class="sticky">
+                <div class="content">
                     <p>
                         Ada undangan, kolaborasi, atau urusan penting sama BEM?
                         <br>
