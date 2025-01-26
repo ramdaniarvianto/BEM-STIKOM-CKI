@@ -126,6 +126,20 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     </table>
                 </div>
             </div>
+            <div class="ukm">
+                <h2>Unit Kegiatan Mahasiswa</h2>
+                    <div class="ukm-image">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-cpc.png" alt="UKM CPC">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-it.png" alt="UKM IT">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-koker.png" alt="UKM KOKER">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-kwh.png" alt="UKM KWH">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-ldk.png" alt="UKM LDK">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-matras.png" alt="UKM MATRAS">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-olahraga.png" alt="UKM OLAHRAGA">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-pcr.png" alt="UKM PCR">
+                    <img src="<?= $basePath; ?>assets/images/ukm/ukm-ssiktif.png" alt="UKM SSIKTIF">
+                </div>
+            </div>
         </div>
         <div class="right">
             <div class="sticky">
