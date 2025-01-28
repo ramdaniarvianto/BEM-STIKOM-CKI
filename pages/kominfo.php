@@ -7,7 +7,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $titlebar; ?></title>
+    <title>Kominfo - <?= $titlebar; ?></title>
     <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,16 +23,16 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <span>|</span>
         <p class="breadcrumbs-active">Tentang</p>
         <span>|</span>
-        <p class="breadcrumbs-active">Depkominfo</p>
+        <p class="breadcrumbs-active">Kominfo</p>
     </div>
 
     <main>
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Departemen Komunikasi dan Informasi</h2>
+                <h2>Kementerian Komunikasi dan Informasi</h2>
                 <div class="content-text">
-                    <p>Depkominfo adalah kementerian yang bertugas mengelola sistem komunikasi dan informasi BEM. Tujuannya adalah memfasilitasi penyebaran informasi melalui media sosial dan mading kampus, serta mengembangkan konten digital di platform resmi BEM agar mahasiswa tetap terinformasi dengan baik mengenai kegiatan dan isu terkini di kampus. Berikut tugas dan fungsi Depkominfo:</p>
+                    <p>Kominfo adalah kementerian yang bertugas mengelola sistem komunikasi dan informasi BEM. Tujuannya adalah memfasilitasi penyebaran informasi melalui media sosial dan mading kampus, serta mengembangkan konten digital di platform resmi BEM agar mahasiswa tetap terinformasi dengan baik mengenai kegiatan dan isu terkini di kampus. Berikut tugas dan fungsi Kominfo:</p>
                 </div>
                 <div class="content-text">
                     <table>

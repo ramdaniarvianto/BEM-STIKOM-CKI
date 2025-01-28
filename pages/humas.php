@@ -7,7 +7,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $titlebar; ?></title>
+    <title>Humas - <?= $titlebar; ?></title>
     <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,9 +30,9 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Humas</h2>
+                <h2>Kementerian Hubungan Masyarakat</h2>
                 <div class="content-text">
-                    <p>Humas (Hubungan Masyarakat) adalah kementerian yang berperan sebagai penghubung antara BEM dan mahasiswa serta pihak eksternal. Tugas utama Humas adalah menyebarluaskan informasi kegiatan BEM, membangun citra positif organisasi, serta mengelola komunikasi dan interaksi dengan masyarakat kampus agar terjalin partisipasi aktif dan dukungan yang kuat. Berikut tugas dan fungsi Humas:</p>
+                    <p>Humas adalah kementerian yang berperan sebagai penghubung antara BEM dan mahasiswa serta pihak eksternal. Tugas utama Humas adalah menyebarluaskan informasi kegiatan BEM, membangun citra positif organisasi, serta mengelola komunikasi dan interaksi dengan masyarakat kampus agar terjalin partisipasi aktif dan dukungan yang kuat. Berikut tugas dan fungsi Humas:</p>
                 </div>
                 <div class="content-text">
                     <table>

@@ -7,12 +7,12 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $titlebar; ?></title>
+    <title>Program Kerja - <?= $titlebar; ?></title>
     <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/proker.css">
+    <link rel="stylesheet" href="<?= $basePath; ?>assets/css/proker.css">
     <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -114,7 +114,14 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                         </div>
                         <p>Cipta Karya Informatika Cares</p>
                         <p>Kegiatan peduli sosial ketika adanya berita belasungkawa dari keluarga besar STIKOM CKI ataupun berita musibah yang berdampak bagi sekelompok orang atau perorangan dengan bantuan berupa uang tunai ataupun lainnya.</p>
+                        <!-- CKI CARES - Solidaritas Mahasiswa -->
+                        <h3>CKI Cares - Solidaritas Mahasiswa</h3>
                         <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares.jpg" alt="CKI Cares">
+                        <!-- CKI CARES - Kebakaran Kemayoran -->
+                        <h3>CKI Cares - Open Donation Kebakaran Kemayoran</h3>
+                        <img src="<?= $basePath; ?>assets/images/bem/proker-cki-cares-2.png" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                        <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-1.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
+                        <img class="proker-image" src="../assets/images/bem/cki-cares-kemayoran-2.jpg" alt="CKI Cares - Open Donasi Kebakaran Kemayoran">
                     </div>
                     <!-- PROKER | STIKOM COLLABORATION --><hr>
                     <div class="proker">
@@ -133,7 +140,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                                     <strong class="sub-proker">Seminar IT</strong>
                                     <strong class="terlaksana">Terlaksana</strong>
                                 </div>
-                                <p>Seminar IT: Pemanfaatan Teknologi AI dalam Perkuliahan</p>
+                                <p><b>Seminar IT</b>: Pemanfaatan Teknologi AI dalam Perkuliahan</p>
                                 <p>
                                     📅 Tanggal: 18 Januari 2025
                                     <br>
@@ -159,8 +166,19 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                                 <div class="proker-tags">
                                     <strong>STIKOM Collaboration</strong>
                                     <strong class="sub-proker">Studi Banding</strong>
+                                    <strong class="terlaksana">Terlaksana</strong>
                                 </div>
-                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-studi-banding.png" alt="Studi Banding">
+                                <p>
+                                    <b>BEM STIKOM CKI x BEM IBM ASMI</b>: Kolaborasi dan Sistem Informasi untuk Relasi, Solidaritas, dan Kemajuan Organisasi
+                                </p>
+                                <p>
+                                    📅 Tanggal: 25 Januari 2025
+                                    <br>
+                                    🕒 Waktu: 10:00 - 05:00
+                                    <br>
+                                    📍 Tempat: Aula Kampus STIKOM CKI
+                                </p>
+                                <img class="proker-image" src="<?= $basePath; ?>assets/images/bem/proker-studi-banding.jpg" alt="Studi Banding">
                             </div>
                             <!-- PROGRAM KERJA | BAZAR RAMADHAN -->
                             <div class="collab">

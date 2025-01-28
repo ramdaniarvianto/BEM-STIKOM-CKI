@@ -7,7 +7,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $titlebar; ?></title>
+    <title>Regional UKM - <?= $titlebar; ?></title>
     <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,9 +30,9 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Regional UKM</h2>
+                <h2>Kementerian Regional Unit Kegiatan Mahasiswa</h2>
                 <div class="content-text">
-                    <p>Regional UKM (Unit Kegiatan Mahasiswa) adalah kementerian yang menjembatani komunikasi dan koordinasi antara UKM di kampus. Kementerian ini berperan dalam memonitor dan mengevaluasi kegiatan UKM, mendukung promosi dan rekrutmen anggota baru, serta membangun jaringan kerja sama dengan pihak eksternal untuk mendukung kelancaran program UKM. Berikut tugas dan fungsi Regional UKM:</p>
+                    <p>Regional UKM adalah kementerian yang menjembatani komunikasi dan koordinasi antara UKM di kampus. Kementerian ini berperan dalam memonitor dan mengevaluasi kegiatan UKM, mendukung promosi dan rekrutmen anggota baru, serta membangun jaringan kerja sama dengan pihak eksternal untuk mendukung kelancaran program UKM. Berikut tugas dan fungsi Regional UKM:</p>
                 </div>
                 <div class="content-text">
                     <table>

@@ -34,12 +34,12 @@ svg {
 
 /* BREADCRUMBS */
 .breadcrumbs {
-    padding: .8rem;
-    margin: 1rem 2rem;
+    padding: .8rem 2rem;
+    margin: 0;
     display: flex;
     gap: .8rem;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-top: 1px solid #E1E2EB;
 }
 
 .breadcrumbs a {
@@ -81,11 +81,11 @@ main .left {
 }
 
 main .left .content {
-    padding: 1.5rem 1.5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 2rem;
     background-color: #FFFFFF;
     border-radius: 1rem;
 }
@@ -116,11 +116,11 @@ main .left .content img.width-full {
 main .left .content .logo-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 main .left .content .logo-wrap .logo {
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,12 +160,12 @@ main .left .content .logo-wrapper {
 
 main .left .content .logo-wrapper .logo-warna {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 main .left .content .logo-wrapper .logo-warna .warna {
     width: 50%;
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,9 +230,9 @@ main .right .content i {
     /* BREADCRUMBS */
     .breadcrumbs {
         padding: .5rem .4rem;
-        margin: 10px;
         display: flex;
         gap: .4rem;
+        border-top: 1.4px solid #E1E2EB;
     }
 
     .breadcrumbs a {
@@ -241,9 +241,9 @@ main .right .content i {
 
     /* MAIN */
     main {
-        margin: 10px;
+        margin: 2rem 1rem;
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         flex-direction: column;
     }
 
@@ -253,6 +253,9 @@ main .right .content i {
     }
 
     main .left .content {
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
         border-radius: .5rem;
     }
 

@@ -1,6 +1,5 @@
 <?php 
 $titlebar = "BEM STIKOM CKI " . date("Y");
-$basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +36,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                     <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>
                     <li><a href="<?= $basePath; ?>pages/humas.php">Humas</a></li>
                     <li><a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a></li>
-                    <li><a href="<?= $basePath; ?>pages/depkominfo.php">Depkominfo</a></li>
+                    <li><a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a></li>
                     <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
                 </ul>
             </ul>
@@ -69,12 +68,12 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                 <ul class="sidebar-dropdown">
                     <li><a class="sidebar-d">Struktur Organisasi <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></a></li>
                     <ul class="sidebar-dropdown-content">
-                        <li><a href="">Sekretaris</a></li>
-                        <li><a href="">Bendahara</a></li>
-                        <li><a href="">Humas</a></li>
-                        <li><a href="">Adkesma</a></li>
-                        <li><a href="">Depkominfo</a></li>
-                        <li><a href="">Regional UKM</a></li>
+                        <li><a href="<?= $basePath; ?>pages/sekretaris.php">Sekretaris</a></li>
+                        <li><a href="<?= $basePath; ?>pages/bendahara.php">Bendahara</a></li>
+                        <li><a href="<?= $basePath; ?>pages/humas.php">Humas</a></li>
+                        <li><a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a></li>
+                        <li><a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a></li>
+                        <li><a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a></li>
                     </ul>
                 </ul>
             </ul>

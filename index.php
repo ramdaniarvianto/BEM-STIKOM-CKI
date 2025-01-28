@@ -8,11 +8,11 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $titlebar; ?></title>
-    <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/ico/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?= $basePath; ?>assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,7 +23,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
             Selamat Datang,<br>
             <span>
                 Website BEM STIKOM CKI <br>
-                <span class="bem">Kabinet Dharma Satvavira Dialektika</span>
+                Kabinet Dharma Satvavira Dialektika
             </span>
         </h1>
         <img src="assets/images/bem/raker.png" alt="BEM STIKOM CKI 2024/2025">
@@ -76,7 +76,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <div class="kementerian">
             <div class="kementerian-head">
                 <h2>Kementerian</h2>
-                <p>Kementerian di Kabinet Dharma Satvavira Dialektika memiliki perang penting dengan tugas, fokus, program kerja, dan visi misi tersendiri.</p>
+                <p>Kementerian di Kabinet Dharma Satvavira Dialektika yang memiliki peran penting dengan tugas, fokus, program kerja, dan visi misi tersendiri.</p>
             </div>
             <div class="kementerian-divisi">
                 <!-- SEKRETARIS -->

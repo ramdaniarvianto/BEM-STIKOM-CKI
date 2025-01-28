@@ -34,12 +34,12 @@ svg {
 
 /* BREADCRUMBS */
 .breadcrumbs {
-    padding: .8rem;
-    margin: 1rem 2rem;
+    padding: .8rem 2rem;
+    margin: 0;
     display: flex;
     gap: .8rem;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-top: 1px solid #E1E2EB;
 }
 
 .breadcrumbs a {
@@ -81,7 +81,7 @@ main .left {
 }
 
 main .left .content {
-    padding: 1.5rem 1.5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -92,6 +92,11 @@ main .left .content {
 
 main .left .content h2 {
     font-size: clamp(1.6rem, 5vw, 2rem);
+    font-weight: 500;
+    line-height: 1;
+}
+main .left .content h3 {
+    font-size: clamp(1.4rem, 5vw, 1.6rem);
     font-weight: 500;
     line-height: 1;
 }
@@ -132,6 +137,9 @@ main .left .content strong.sub-proker {
     color: var(--light-peach);
     border: 1.4px solid var(--light-peach);
     border-radius: 100px;
+}
+main .left .content b {
+    font-weight: 600;
 }
 
 main .left .content .content-text {
@@ -226,9 +234,9 @@ main .right .content i {
     /* BREADCRUMBS */
     .breadcrumbs {
         padding: .5rem .4rem;
-        margin: 10px;
         display: flex;
         gap: .4rem;
+        border-top: 1.4px solid #E1E2EB;
     }
 
     .breadcrumbs a {
@@ -237,9 +245,9 @@ main .right .content i {
 
     /* MAIN */
     main {
-        margin: 10px;
+        margin: 2rem 1rem;
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         flex-direction: column;
     }
 
@@ -249,6 +257,7 @@ main .right .content i {
     }
 
     main .left .content {
+        padding: 1rem;
         border-radius: .5rem;
     }
 

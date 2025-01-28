@@ -7,7 +7,7 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $titlebar; ?></title>
+    <title>Adkesma - <?= $titlebar; ?></title>
     <link rel="icon" href="<?= $basePath; ?>assets/images/ico/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,9 +30,9 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
         <div class="left">
             <!-- KEMENTERIAN -->
             <div class="content" id="kementerian">
-                <h2>Adkesma</h2>
+                <h2>Kementerian Advokasi dan Kesejahteraan Mahasiswa</h2>
                 <div class="content-text">
-                    <p>Kementerian Koordinator Adkesma merupakan sebuah bidang yang bertugas untuk membantu mahasiswa atau mahasiswa dalam advokasi mengenai fasilitas, akademis dan finansial untuk memenuhi kesejahteraan serta cepat tanggap terhadap permasalahan yang terdapat pada lingkungan civitas akademik. Berikut tugas dan fungsi Adkesma:</p>
+                    <p>Kementerian Adkesma merupakan sebuah bidang yang bertugas untuk membantu mahasiswa atau mahasiswa dalam advokasi mengenai fasilitas, akademis dan finansial untuk memenuhi kesejahteraan serta cepat tanggap terhadap permasalahan yang terdapat pada lingkungan civitas akademik. Berikut tugas dan fungsi Adkesma:</p>
                 </div>
                 <div class="content-text">
                     <table>
