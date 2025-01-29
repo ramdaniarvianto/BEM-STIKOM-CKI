@@ -17,13 +17,40 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
 </head>
 <body>
     <footer>
-        <div class="footer-info">
+        <div class="foot-bem">
             <a href="<?= $basePath; ?>index.php" class="foot-logo">
-                <img src="<?= $basePath; ?>assets/images/logo/logobem-home.png" alt="Logo BEM Home">
+                <img src="<?= $basePath; ?>assets/images/logo/logobem-home.png" alt="Logo BEM STIKOM CKI">
                 <span>BEM STIKOM CKI</span>
             </a>
             <p>Website Resmi BEM STIKOM CKI 2024-2025 Kabinet Dharma Satvavira Dialektika. Hadir Sebagai Ruang dan Wadah Aspirasi dan Realisasi Untuk Transformasi STIKOM CKI dan Indonesia.</p>
-            <div class="foot-socmed">
+        </div>
+        <div class="foot-content">
+            <!-- FOOTER LINKS -->
+            <div class="content foot-content-links">
+                <h4>Navigasi</h4>
+                <a href="<?= $basePath; ?>index.php">Home</a>
+                <a href="<?= $basePath; ?>pages/proker.php">Program Kerja</a>
+                <a href="<?= $basePath; ?>pages/filosofi.php">Filosofi Logo</a>
+            </div>
+            <!-- FOOTER KEMENTERIAN -->
+            <div class="content foot-content-kementerian">
+                <h4>Kementerian</h4>
+                <a href="<?= $basePath; ?>pages/sekretaris.php">Sekretaris</a>
+                <a href="<?= $basePath; ?>pages/bendahara.php">Bendahhara</a>
+                <a href="<?= $basePath; ?>pages/humas.php">Humas</a>
+                <a href="<?= $basePath; ?>pages/adkesma.php">Adkesma</a>
+                <a href="<?= $basePath; ?>pages/kominfo.php">Kominfo</a>
+                <a href="<?= $basePath; ?>pages/regionalukm.php">Regional UKM</a>
+            </div>
+            <!-- FOOTER LAINNYA -->
+            <div class="content foot-content-lainnya">
+                <h4>Lainnya</h4>
+                <a href="<?= $basePath; ?>pages/strukturorganisasi.php">Struktur Organisasi</a>
+                <a href="<?= $basePath; ?>pages/kegiatan.php">Kegiatan</a>
+            </div>
+            <!-- FOOTER SOCMED -->
+            <div class="content foot-content-medsos">
+                <h4>Media Sosial</h4>
                 <!-- INSTAGRAM -->
                 <a href="https://www.instagram.com/bemstikomcki_/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
                 <!-- FACEBOOK -->
@@ -34,9 +61,8 @@ $basePath = (strpos($_SERVER['PHP_SELF'], 'pages/') !== false ) ? '../' : '';
                 <a href="https://wa.me/6282247963895" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
             </div>
         </div>
-        </div>
-        <div class="footer-copy">
-            <p>Copyright © BEM STIKOM CKI <?= date("Y"); ?> | Kabinet Dharma Satvavira Dialektika</p>
+        <div class="foot-copy">
+            <p>&copy; <?= date("Y"); ?> Hak Cipta, <b>BEM STIKOM CKI</b></p>
         </div>
     </footer>
 </body>

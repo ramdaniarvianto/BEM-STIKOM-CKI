@@ -40,7 +40,6 @@ svg {
     display: flex;
     gap: .8rem;
     background-color: #FFFFFF;
-    border-top: 1px solid #E1E2EB;
 }
 
 .breadcrumbs a {
@@ -244,7 +243,6 @@ main .right .content i {
         padding: .5rem .4rem;
         display: flex;
         gap: .4rem;
-        border-top: 1.4px solid #E1E2EB;
     }
 
     .breadcrumbs a {

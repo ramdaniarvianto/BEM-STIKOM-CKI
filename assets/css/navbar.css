@@ -44,6 +44,7 @@ nav {
     align-items: center;
     gap: 1.5rem;
     background-color: #FFFFFF;
+    border-bottom: 1.4px solid #F1F2FB;
 }
 
 nav .nav-logo {
@@ -79,7 +80,6 @@ nav .active {
 }
 
 nav .nav-d {
-    cursor: default;
     display: flex;
     align-items: center;
 }
@@ -199,10 +199,6 @@ nav .sidebar .sidebar-menu a {
 }
 nav .sidebar .sidebar-menu a:hover {
     color: var(--peach);
-}
-
-nav .sidebar .sidebar-menu .sidebar-dropdown .sidebar-d {
-    cursor: default;
 }
 
 nav .sidebar .sidebar-menu .sidebar-dropdown > li a {
