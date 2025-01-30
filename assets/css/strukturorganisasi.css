@@ -95,86 +95,10 @@ main .left .content h2 {
     line-height: 1;
 }
 
-main .left .content strong {
-    display: inline-block;
-    padding: .2rem 1.2rem;
-    font-weight: normal;
-    color: var(--peach);
-    border: 1.4px solid var(--peach);
-    border-radius: 100px;
-}
-
 main .left .content img {
-    width: 15rem;
-    border-radius: 1rem;
-}
-main .left .content img.width-full {
     width: 100%;
-}
-
-main .left .content .logo-wrap {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-main .left .content .logo-wrap .logo {
-    padding: 1.5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    border: 1.5px solid #E1E2EB;
     border-radius: 1rem;
-}
-
-main .left .content .nama-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-main .left .content .nama-wrapper .nama-logo .nama-logo-img {
-    padding: 0 1.5rem;
     border: 1.5px solid #E1E2EB;
-}
-
-main .left .content .nama-wrapper .nama-kabinet {
-    padding: 1rem 0;
-    border-bottom: 1.5px solid #E1E2EB;
-}
-
-main .left .content .nama-wrapper .nama-kabinet .nama p {
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: var(--peach);
-}
-
-main .left .content .logo-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
-main .left .content .logo-wrapper .logo-warna {
-    display: flex;
-    gap: 2rem;
-}
-
-main .left .content .logo-wrapper .logo-warna .warna {
-    width: 50%;
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    border: 1.5px solid #E1E2EB;
-    border-radius: 1rem;
-}
-
-main .left .content .logo-wrapper .logo-warna .warna p {
-    text-align: center;
 }
 
 /* MAIN | RIGHT */
@@ -254,30 +178,6 @@ main .right .content i {
         padding: 1rem;
         display: flex;
         gap: 1rem;
-        border-radius: .5rem;
-    }
-
-    main .left .content img {
-        width: 100%;
-    }
-
-    main .left .content .logo-wrap {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    main .left .content .nama-wrapper .nama-logo .nama-logo-img {
-        padding: 0 1rem;
-    }
-
-    main .left .content .logo-wrapper .logo-warna {
-        display: flex;
-        flex-direction: column;
-    }
-
-    main .left .content .logo-wrapper .logo-warna .warna {
-        width: 100%;
-        padding: 1.5rem 1rem;
         border-radius: .5rem;
     }
 
